@@ -261,7 +261,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
-"@fontsource/grandstander@^4.5.7":
+"@fontsource/grandstander@4.5.7":
   version "4.5.7"
   resolved "https://registry.yarnpkg.com/@fontsource/grandstander/-/grandstander-4.5.7.tgz#35ead6012fe9c6d07225bb57f8bade5d3cc18f78"
   integrity sha512-pzryc8J4c+m68V7z3iHmpXE37kMc8SqQqmXMZJnOwyoj4SGL5hb6SUDH9GoQ7kc8o1sHhxryf6SqPxZ1D2Li5g==
@@ -754,7 +754,7 @@ react-dom@^18.0.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-icons@4.4.0:
+react-icons@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.4.0.tgz#a13a8a20c254854e1ec9aecef28a95cdf24ef703"
   integrity sha512-fSbvHeVYo/B5/L4VhB7sBA1i2tS8MkT0Hb9t2H1AVPkwGfVHLJCqyr2Py9dKMxsyM63Eng1GkdZfbWj+Fmv8Rg==

@@ -58,6 +58,7 @@ interface IImage {
 export const S_Image = styled.img<IImage>(
   props => css`
     width: 3rem;
+    height: 3rem;
     margin-inline: auto;
 
     &.active {
