@@ -2,20 +2,16 @@ import styled from 'styled-components';
 import Emoticon from 'components/Emoticon';
 import Header from 'components/Header';
 import emoticons from 'data';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { TVersion } from 'interfaces';
 import GenderSwitcher from 'components/GenderSwitcher';
 
 export default function App() {
-  function clickSound(e: any) {
-    let version: TVersion = 'old';
-    // if (e.shiftKey) version = 'new';
+  function clickSound(e: KeyboardEvent) {
+    let version = 'old';
     if (e.altKey) version = 'new';
 
-    const emoticon = emoticons.find(
-      // emoticon => e.code == `Digit${emoticon.number}`
-      emoticon => e.key == emoticon.number
-    );
+    const emoticon = emoticons.find(emoticon => e.key === emoticon.number);
 
     const element = document.getElementById(`${emoticon?.name}_${version}`);
     element?.click();

@@ -14,7 +14,7 @@ export interface IEmoticon {
   name: string;
   img: string;
   sounds: ISounds;
-  number: number;
+  number: string;
   animation: Keyframes;
 }
 

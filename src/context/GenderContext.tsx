@@ -14,7 +14,7 @@ const initialState = {
 export const CtxGender = createContext<CtxProps>(initialState);
 
 export default function GenderContext({ children }: IContextComponent) {
-  const [gender, setGender] = useState<TGender>('male');
+  const [gender, setGender] = useState<TGender>(initialState.gender);
 
   function toggleGender() {
     let newGender: TGender;

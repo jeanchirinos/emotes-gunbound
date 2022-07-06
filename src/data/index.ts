@@ -71,7 +71,7 @@ import {
   sorry,
   thanks,
   veryGood,
-} from 'components/Animation';
+} from 'data/animations';
 
 import { IEmoticon } from 'interfaces';
 
@@ -89,7 +89,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleHi,
       },
     },
-    number: 1,
+    number: '1',
     animation: hello,
   },
   {
@@ -105,7 +105,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleBye,
       },
     },
-    number: 2,
+    number: '2',
     animation: bye,
   },
   {
@@ -121,7 +121,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleMyGod,
       },
     },
-    number: 3,
+    number: '3',
     animation: myGod,
   },
   {
@@ -137,7 +137,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleHelp,
       },
     },
-    number: 4,
+    number: '4',
     animation: help,
   },
   {
@@ -153,7 +153,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleGood,
       },
     },
-    number: 5,
+    number: '5',
     animation: good,
   },
   {
@@ -169,7 +169,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleVeryGood,
       },
     },
-    number: 6,
+    number: '6',
     animation: veryGood,
   },
   {
@@ -185,7 +185,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleGoodTry,
       },
     },
-    number: 7,
+    number: '7',
     animation: goodTry,
   },
   {
@@ -201,7 +201,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleSorry,
       },
     },
-    number: 8,
+    number: '8',
     animation: sorry,
   },
   {
@@ -217,7 +217,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleBeginner,
       },
     },
-    number: 9,
+    number: '9',
     animation: beginner,
   },
   {
@@ -233,7 +233,7 @@ const emoticons: IEmoticon[] = [
         female: NewFemaleThanks,
       },
     },
-    number: 0,
+    number: '0',
     animation: thanks,
   },
 ];

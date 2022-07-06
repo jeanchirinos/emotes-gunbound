@@ -32,8 +32,8 @@ export default function Emoticon({
         loading="lazy"
         alt={`Emoticon ${name}`}
         animation={animation}
-        width="160"
-        height="160"
+        width="48"
+        height="48"
       />
       <p>{name}</p>
       <div className="buttons-wrapper">

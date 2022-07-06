@@ -38,7 +38,7 @@ export const S_GenderSwitcher = styled.button<Props>(
     }
 
     :focus-visible {
-      outline: auto;
+      outline: 2px solid black;
     }
   `
 );

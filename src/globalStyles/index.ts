@@ -15,11 +15,14 @@ export default createGlobalStyle<Props>(
       /* outline: 0.5px solid blue; */
     }
 
-    a,
+    a {
+      color: inherit;
+    }
+
     button {
       all: unset;
-      cursor: pointer;
       box-sizing: border-box;
+      cursor: pointer;
     }
 
     ::selection {
@@ -58,30 +61,9 @@ export default createGlobalStyle<Props>(
       padding-block: 2rem;
 
       > * {
-        width: min(750px, 90%);
+        width: 750px;
+        max-width: 90%;
         margin-inline: auto;
-      }
-    }
-
-    .icon-container {
-      border-radius: 0.5rem;
-      width: 2rem;
-      height: 2rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      :focus-visible {
-        outline: auto;
-      }
-
-      :hover {
-        opacity: 0.5;
-      }
-
-      > svg {
-        display: block;
-        font-size: 1.8rem;
       }
     }
   `
