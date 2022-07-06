@@ -20,8 +20,10 @@ export default createGlobalStyle<Props>(
     }
 
     button {
-      all: unset;
-      box-sizing: border-box;
+      background-color: transparent;
+      color: inherit;
+      border: none;
+      padding: 0;
       cursor: pointer;
     }
 

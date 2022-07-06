@@ -77,6 +77,7 @@ export const S_Button = styled.button<IButton>(
     height: 100%;
     opacity: 0;
     transition: opacity 0.3s;
+    outline: none;
 
     :hover,
     :focus {

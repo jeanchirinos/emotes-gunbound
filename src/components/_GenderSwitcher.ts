@@ -36,9 +36,5 @@ export const S_GenderSwitcher = styled.button<Props>(
       transform: ${gender === 'female' && 'translateX(24px)'};
       transition: transform 0.3s;
     }
-
-    :focus-visible {
-      outline: 2px solid black;
-    }
   `
 );

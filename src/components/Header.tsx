@@ -11,7 +11,10 @@ export default function Header() {
     <S_Header>
       <h1>EMOTES GB</h1>
       <aside>
-        <HiOutlineMoon onClick={toggleTheme} tabIndex={0} />
+        <button onClick={toggleTheme}>
+          <HiOutlineMoon />
+        </button>
+
         <a href="https://github.com/jeanchirinos/emotes-gunbound">
           <AiFillGithub />
         </a>
